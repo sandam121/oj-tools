@@ -24,10 +24,10 @@ hnust-oj-tools/
 ├── captcha_samples/              # 验证码训练样本（20张）
 │   └── sample_*.png
 └── userscripts/                  # 油猴脚本（浏览器端）
-    ├── hnust-oj-scraper.user.js          # 纯爬取：一键导出题目
-    ├── hnust-oj-ai-solver.user.js        # AI 做题：自动生成代码并提交
-    ├── hnust-oj-allinone-v5.user.js      # 全能版 v5：爬取 + AI + OCR
-    └── hnust-oj-allinone-v4-backup.user.js  # 稳定版 v4：手动输入验证码
+    ├── oj-scraper.user.js          # 纯爬取：一键导出题目
+    ├── oj-ai-solver.user.js        # AI 做题：自动生成代码并提交
+    ├── oj-allinone-v5.user.js      # 全能版 v5：爬取 + AI + OCR
+    └── oj-allinone-v4-backup.user.js  # 稳定版 v4：手动输入验证码
 ```
 
 ---
@@ -92,9 +92,9 @@ python extract_problems.py
 
 | 脚本 | 功能 | 适用场景 |
 |------|------|----------|
-| `hnust-oj-scraper.user.js` | 一键爬取题目、导出 JSON/TXT | 只需要下载题目 |
-| `hnust-oj-ai-solver.user.js` | AI 自动生成代码并提交 | 刷题 + 需要手动输验证码 |
-| `hnust-oj-allinone-v5.user.js` | 爬取 + AI 做题 + 本地 OCR | **推荐**，功能最全 |
+| `oj-scraper.user.js` | 一键爬取题目、导出 JSON/TXT | 只需要下载题目 |
+| `oj-ai-solver.user.js` | AI 自动生成代码并提交 | 刷题 + 需要手动输验证码 |
+| `oj-allinone-v5.user.js` | 爬取 + AI 做题 + 本地 OCR | **推荐**，功能最全 |
 
 #### 配置 AI API（v5 / ai-solver）
 
